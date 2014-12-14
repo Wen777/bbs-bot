@@ -44,6 +44,20 @@ Telnet 是一個 server、client 之間不斷的來回溝通，所在規劃的�
 
 ![design](./design.png)
 
+## 開發/使用
+
+### 環境要求
+
+* Node.js v0.11.x
+
+### 如何執行？
+
+`bbs-bot` 有使用 ES6 的 `Generators`、`Symbol`、`let`，需要在下 `node` 指令時開啟一些選項，最快的方式是使用 `--harmony` 開啟所有 Node.js 目前支援的 ES6 新語法。
+
+```bash
+$ node --harmony example.js
+```
+
 ## License
 
 The MIT License (MIT)
